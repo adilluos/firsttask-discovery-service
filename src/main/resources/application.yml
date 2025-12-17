@@ -9,3 +9,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+
+volumes:
+  - ~/.m2:/root/.m2
